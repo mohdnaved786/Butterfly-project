@@ -1,0 +1,1259 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+/*************HEADER CSS START**************/
+
+header{
+	background: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 5%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+nav{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu ul{
+	display: flex;
+    list-style: none;
+    column-gap: 2rem;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	color: #444444;
+	font-size: 15px;
+	font-weight: 600;
+	transition: all 0.5s;
+}
+
+.nav-menu ul li a:hover{
+	color: #49b5e7;
+}
+
+/*************HEADER CSS END**************/
+
+
+/*************SECTION 1 CSS START****************/
+
+.sec-one{
+	background: #f9f9f9;
+}
+
+.hero-div{
+	display: flex;
+    padding-top: 10rem;
+    column-gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.hero-div1{
+	width: 34rem;
+    padding-left: 8rem;
+}
+
+.hero-div1 h1{
+	font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #0f394c;
+}
+
+.hero-div1 p{
+	color: #1c698c;
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+.hero-div1 button{
+	font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 25px;
+    color: #fff;
+    background: #49b5e7;
+    cursor: pointer;
+}
+
+.hero-div1 button:hover{
+	background: #76c7ed;
+}
+
+.hero-div2 img{
+	width: 36rem;
+}
+
+/*************SECTION 1 CSS END****************/
+
+
+/*************SECTION 2 CSS START****************/
+
+.sec-two{
+	padding: 4rem 0;
+}
+
+.about-div{
+	display: flex;
+}
+
+.about-div1{
+	background-image: url(imagesfolder/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 8rem;
+    width: 93rem;
+    padding: 20rem 0;
+}
+
+.about-div1 .fa-sharp{
+	background: radial-gradient(#49b5e7 50%, rgba(73, 181, 231, 0.4) 52%);
+	display: flex;
+    justify-content: center;
+    width: 1rem;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 35px;
+    color: white;
+    margin: auto;
+}
+
+.about-div2{
+	padding-left: 2rem;
+    padding-right: 7rem;
+    padding-top: 4rem;
+}
+
+.about-div2 span{
+	line-height: 29px;
+}
+
+.about-div2 h2{
+	font-size: 28px;
+    font-weight: 700;
+    color: #0f394c;
+    margin-bottom: 15px;
+    padding-bottom: 1rem;
+}
+
+.about-div2 p{
+	line-height: 24px;
+}
+
+.about-div2 i{
+	position: relative;
+    color: #49b5e7;
+    font-size: 32px;
+    border: 2px solid #d0ecf9;
+    padding: 9px;
+    border-radius: 100px;
+    top: 50px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.about-div2 i:hover{
+	background-color: #49b5e7;
+	color: white;
+}
+
+.about-div2 h4{
+	padding-left: 5rem;
+	padding-bottom: 1rem;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.about-div2 h4:hover{
+	color: #49b5e7;
+}
+
+.about-div2 p{
+	padding-left: 5rem;
+	line-height: 27px;
+}
+
+/*************SECTION 2 CSS END****************/
+
+/*************SECTION 3 CSS START****************/
+
+.sec-three{
+	background: url('imagesfolder/counts-bg.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+    position: relative;
+}
+
+.sec-three::before {
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.sec-three{
+	background-attachment: fixed;
+}
+
+.counter-div{
+	position: relative;
+    color: #0f394c;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.counter-div h3{
+	font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.counter-div p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.counter-div2{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.counter-div2 span{
+	font-size: 44px;
+    font-weight: 700;
+    display: block;
+    color: #49b5e7;
+}
+
+.counter-div2 p{
+	padding-top: 10px;
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    color: #444444
+}
+
+/*************SECTION 3 CSS END****************/
+
+/*************SECTION 4 CSS START****************/
+
+.sec-four{
+	padding: 3rem 0;
+}
+
+.four-div1{
+	display: flex;
+	margin-left: 8rem;
+}
+
+.four-div1 .small-div1{
+	border: 1px solid #eee;
+    padding: 3rem 6rem;
+    border-right: none;
+}
+
+.four-div1 .small-div1:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.four-div1 .small-div2{
+	border: 1px solid #eee;
+    padding: 3rem 6rem;
+    border-right: none;
+}
+
+.four-div1 .small-div2:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.four-div1 .small-div3{
+	border: 1px solid #eee;
+    padding: 3rem 6rem;
+    border-right: none;
+}
+
+.four-div1 .small-div3:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.four-div1 .small-div4{
+	border: 1px solid #eee;
+    padding: 3rem 6rem;
+}
+
+.four-div1 .small-div4:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.small-div1 img{
+	width: 5rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+.small-div2 img{
+	width: 5rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+.small-div3 img{
+	width: 5rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+.small-div4 img{
+	width: 5rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+.four-div2{
+	display: flex;
+	margin-left: 8rem;
+}
+
+.four-div2 .small-div5{
+	border: 1px solid #eee;
+    padding: 3rem 6rem;
+    border-right: none;
+    border-top: none;
+}
+
+.four-div2 .small-div5:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.four-div2 .small-div6{
+	border: 1px solid #eee;
+    padding: 3rem 6rem;
+    border-right: none;
+    border-top: none;
+}
+
+.four-div2 .small-div6:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.four-div2 .small-div7{
+	border: 1px solid #eee;
+    padding: 3rem 72px;
+    border-right: none;
+    border-top: none;
+}
+
+.four-div2 .small-div7:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.four-div2 .small-div8{
+	border: 1px solid #eee;
+    padding: 3rem 6rem;
+    border-top: none;
+}
+
+.four-div2 .small-div8:hover img{
+      filter: unset;
+      transform: scale(1.2);
+}
+
+.small-div5 img{
+	width: 5rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+.small-div6 img{
+	width: 5rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+.small-div7 img{
+	width: 8rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+.small-div8 img{
+	width: 5rem;
+	filter: grayscale(100%);
+    transition: 0.3s;
+
+}
+
+/*************SECTION 4 CSS END****************/
+
+
+
+/*************SECTION 5 CSS START****************/
+
+.sec-five{
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	background-color: #f4fbfe;
+}
+
+.service-div{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.service-div h1{
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #0f394c;
+}
+
+.service-div p{
+	    line-height: 25px;
+}
+
+.service-div1{
+	display: flex;
+	column-gap: 1rem;
+	justify-content: center;
+}
+
+.service-smalldiv{
+	padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    transition: all 0.3s ease-in-out;
+    width: 24%;
+}
+
+.service-smalldiv:hover{
+	transform: translateY(-5px);
+}
+
+.service-smalldiv:hover h4{
+	color: #49b5e7;
+}
+
+.service-smalldiv .fa-money-bill-1{
+	position: absolute;
+    right: 19rem;
+    font-size: 60px;
+    line-height: 1;
+    transition: 0.5s;
+    top: 3.5rem;
+    color: #ff689b;
+}
+
+.service-smalldiv .fa-calendar-days{
+	position: absolute;
+    right: 19rem;
+    font-size: 60px;
+    line-height: 1;
+    transition: 0.5s;
+    top: 3.5rem;
+    color: #e9bf06;
+}
+
+.service-smalldiv .fa-rocketchat{
+	position: absolute;
+    right: 19rem;
+    font-size: 60px;
+    line-height: 1;
+    transition: 0.5s;
+    top: 3.5rem;
+    color: #3fcdc7;
+}
+
+.service-smalldiv .fa-cc-visa{
+	position: absolute;
+    right: 19rem;
+    font-size: 60px;
+    line-height: 1;
+    transition: 0.5s;
+    top: 3.5rem;
+    color: #41cf2e;
+}
+
+.service-smalldiv .fa-globe{
+	position: absolute;
+    right: 19rem;
+    font-size: 60px;
+    line-height: 1;
+    transition: 0.5s;
+    top: 3.5rem;
+    color: #d6ff22;
+}
+
+.service-smalldiv .fa-clock{
+	position: absolute;
+    right: 19rem;
+    font-size: 60px;
+    line-height: 1;
+    transition: 0.5s;
+    top: 3.5rem;
+    color: #4680ff;
+}
+
+.service-smalldiv h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding-left: 4rem;
+    cursor: pointer;
+}
+
+.service-smalldiv p{
+	padding-left: 4rem;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.service-div2{
+	display: flex;
+	column-gap: 1rem;
+	justify-content: center;
+}
+
+/*************SECTION 5 CSS END****************/
+
+
+
+/*************SECTION 6 CSS START****************/
+
+.sec-six{
+	padding: 3rem 0;
+}
+
+.portfolio-div{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.portfolio-div h1{
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #0f394c;
+}
+
+.portfolio-div p{
+	    line-height: 25px;
+}
+
+.ul-div{
+	padding-bottom: 1rem;
+}
+
+.ul-div ul{
+	display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.ul-div ul li{
+	cursor: pointer;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ul-div ul li:first-child{
+	color: #49b5e7;
+}
+
+.ul-div ul li:hover{
+	color: #49b5e7;
+}
+
+.portfolio-images-div1{
+	display: flex;
+    padding-bottom: 2rem;
+    column-gap: 2rem;
+    margin-left: 7rem;
+}
+
+.portfolio-images-div1 img{
+	width: 22rem;
+}
+
+.portfolio-images-div2{
+	display: flex;
+    padding-bottom: 2rem;
+    column-gap: 2rem;
+    margin-left: 7rem;
+}
+
+.portfolio-images-div2 img{
+	width: 22rem;
+}
+
+.portfolio-images-div3{
+	display: flex;
+    padding-bottom: 2rem;
+    column-gap: 2rem;
+    margin-left: 7rem;
+}
+
+.portfolio-images-div3 img{
+	width: 22rem;
+}
+
+/*************SECTION 6 CSS END****************/
+
+/*************SECTION 7 CSS START****************/
+
+.sec-seven{
+	padding: 6rem 0;
+	background: url('imagesfolder/cta-bg.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.sec-seven::before{
+	content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(11, 41, 55, 0.9);
+}
+
+.slider-div{
+	text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.slider-div img{
+	width: 100px;
+	border-radius: 50%;
+	border: 6px solid rgba(255, 255, 255, 0.15);
+}
+
+.slider-div h3{
+	font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+}
+
+.slider-div h4{
+	font-size: 14px;
+    color: #ddd;
+    margin: 0 0 15px 0;
+}
+
+.slider-div p{
+	font-style: italic;
+    margin: 0 auto 15px auto;
+    color: #eee;
+    line-height: 32px;
+}
+
+/*************SECTION 7 CSS END****************/
+
+
+
+/*************SECTION 8 CSS START****************/
+
+.sec-eight{
+	padding: 4rem 0;
+    background-color: #f4fbfe;
+    overflow: hidden;
+}
+
+.team-div{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.team-div h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #0f394c;
+}
+
+.team-div p{
+     line-height: 24px;
+}
+
+.Four-divteam{
+	display: flex;
+	column-gap: 1.5rem;
+	margin-left: 6rem;
+}
+
+.member{
+	margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.member:hover .social{
+	opacity: 1;
+}
+
+.member-img{
+	position: relative;
+    overflow: hidden;
+}
+
+.member-img img{
+	width: 17rem;
+}
+
+.social{
+	position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+
+.social a{
+	margin: 0 3px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: rgba(73, 181, 231, 0.8);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.member-info{
+	padding: 25px 15px;
+}
+
+.member-info h4{
+	font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #0f394c;
+}
+
+.member-info span{
+	display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+/*************SECTION 8 CSS END****************/
+
+
+/*************SECTION 9 CSS START****************/
+
+.sec-nine{
+	padding: 4rem 0;
+}
+
+.gallery-div{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.gallery-div1{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.gallery-div2{
+	display: flex;
+	justify-content: center;
+	column-gap: 2rem;
+}
+
+.gallery-div h1{
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #0f394c;
+}
+
+.gallery-div p{
+	line-height: 24px;
+}
+
+.gallery-smalldiv{
+	overflow: hidden;
+}
+
+.gallery-smalldiv img{
+	width: 16rem;
+	transition: all ease-in-out 0.4s;
+	cursor: pointer;
+}
+
+.gallery-smalldiv:hover img{
+	transform: scale(1.1);
+}
+
+/*************SECTION 9 CSS END****************/
+
+/*************SECTION 10 CSS START****************/
+
+.sec-ten{
+	padding: 4rem 0;
+}
+
+.contact-div{
+     text-align: center;
+}
+
+.contact-div h1{
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #0f394c;
+}
+
+.contact-div p{
+	line-height: 24px;
+}
+
+.contactbig-div{
+	display: flex;
+    margin-left: 7rem;
+    padding-top: 4rem;
+}
+
+.contact-div1 i{
+	font-size: 20px;
+    color: #49b5e7;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #ebf7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.address:hover i{
+    background-color: #49b5e7;
+    color: white;
+    cursor: pointer;
+}
+
+.email:hover i{
+	background-color: #49b5e7;
+    color: white;
+    cursor: pointer;
+}
+
+.call:hover i{
+	background-color: #49b5e7;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-div1 h4{
+	padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #0f394c;
+}
+
+.contact-div1 p{
+	padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #2079a1;
+}
+
+.contact-div1 .address{
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.contact-div1 .email{
+	margin-bottom: 3rem;
+	cursor: pointer;
+}
+
+.contact-div1 .call{
+	cursor: pointer;
+}
+
+.contact-div2{
+	margin-left: 5rem;
+}
+
+.contact-div2 .input1 input{
+	height: 35px;
+    width: 20rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.contact-div2 button{
+	background: #49b5e7;
+    border: 0;
+    padding: 14px 30px;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 18rem;
+    margin-top: 1.5rem;
+}
+
+.contact-div2 .input3{
+	margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-div2 .input3 input{
+	height: 35px;
+    width: 43rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.contact-div2 textarea{
+	height: 100px;
+    width: 43rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-left: 1rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/*************SECTION 10 CSS END****************/
+
+
+/*************SECTION 11 CSS START****************/
+
+.sec-eleven{
+	padding-top: 3rem;
+	padding-bottom: 6rem;
+	background: #f0f9fd;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer h4{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #0f394c;
+}
+
+.footer p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.sec-eleven .newslatter{
+	margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    text-align: left;
+    width: 50%;
+}
+
+.Newsletter{
+	margin-left: 26rem;
+    margin-top: 2rem;
+}
+
+.Newsletter .input01 input{
+    float: left;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border: none;
+    text-align: left;
+    width: 26rem;
+    height: 42px;
+    font-size: 23px;
+}
+
+.Newsletter .input02 input{
+	font-size: 16px;
+    padding: 12px 20px;
+    background: #49b5e7;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+
+
+/*************SECTION 11 CSS END****************/
+
+/*************SECTION 12 CSS START****************/
+
+.sec-twoelve{
+	padding: 4rem 0;
+}
+
+.footer2{
+	display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer2 .Butterfly h3{
+	font-size: 1.75rem;
+    color: #444444;
+    font-weight: 500;
+}
+
+.footer2 .Butterfly p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+    color: #777777;
+}
+
+.useful-links h4{
+	font-size: 14px;
+    font-weight: bold;
+    color: #0f394c;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.useful-links ul{
+	list-style-type: disclosure-closed;
+	padding-left: 2rem;
+}
+
+.useful-links ul li{
+	padding: 10px 0;
+	color: #777777;
+    transition: 0.3s;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.useful-links ul li a{
+	text-decoration: none;
+	color: #777777;
+	transition: 0.3s all;
+}
+
+.useful-links ul li a:hover{
+	color: #49b5e7;
+}
+
+.Our-Services h4{
+	font-size: 14px;
+    font-weight: bold;
+    color: #0f394c;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.Our-Services ul{
+	list-style-type: disclosure-closed;
+	padding-left: 2rem;
+}
+
+.Our-Services ul li{
+	padding: 10px 0;
+	color: #777777;
+    transition: 0.3s;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Our-Services ul li a{
+	text-decoration: none;
+	color: #777777;
+	transition: 0.3s all;
+}
+
+.Our-Services ul li a:hover{
+	color: #49b5e7;
+}
+
+.OurSocial-Networks{
+	width: 15rem;
+}
+
+.OurSocial-Networks h4{
+	font-size: 14px;
+    font-weight: bold;
+    color: #0f394c;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.OurSocial-Networks p{
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 1rem;
+}
+
+.OurSocial-Networks a{
+	text-decoration: none;
+}
+
+.OurSocial-Networks .fa-twitter{
+    background: #49b5e7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.OurSocial-Networks .fa-facebook{
+	background: #49b5e7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 7px;
+}
+
+.OurSocial-Networks .fa-instagram{
+	background: #49b5e7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 7px;
+}
+
+.OurSocial-Networks .fa-skype{
+	background: #49b5e7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 7px;
+}
+
+.OurSocial-Networks .fa-linkedin{
+	background: #49b5e7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 7px;
+}
+
+
+
+/*************SECTION 12 CSS END****************/
+
+/*************SECTION 13 CSS START****************/
+
+.sec-thirteen{
+	padding: 2.5rem 0;
+	background: #ebf7fc;
+}
+
+.copyright{
+	float: left;
+    color: #0f394c;
+    padding-left: 4rem;
+    font-size: 15px;
+}
+
+.credits{
+	float: right;
+    font-size: 13px;
+    color: #0f394c;
+    padding-right: 5rem;
+}
+
+.credits a{
+	text-decoration: none;
+    color: #49b5e7;
+}
+
+/*************SECTION 13 CSS END****************/
